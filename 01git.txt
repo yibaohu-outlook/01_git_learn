@@ -25,4 +25,5 @@ ps2:-m后面输入的是本次提交的说明
 
 3 git add 01git.txt
 4 git commit -m "update steps_git_learn"
+push the update file to github, need: git push
 5 git status
