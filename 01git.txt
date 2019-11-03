@@ -1,0 +1,28 @@
+repository
+1  https://www.liaoxuefeng.com/wiki/896043488029600/896827951938304
+2  https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%8E%B7%E5%8F%96-Git-%E4%BB%93%E5%BA%93
+
+1 创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录
+2 通过git init命令把这个目录变成Git可以管理的仓库
+3 用命令git add告诉Git，把文件添加到仓库
+4 用命令git commit告诉Git，把文件提交到仓库.  
+5 继续修改01git.txt文件,保存之后运行git status
+  上面的命令输出告诉我们，01git.txt被修改过了
+6 git diff filename 对比检查修改内容
+3 用命令git add告诉Git，把文件添加到仓库
+4 用命令git commit告诉Git，把文件提交到仓库.
+5 之后运行git status
+
+
+ps1: 记得把Notepad++的默认编码设置为UTF-8 without BOM即可
+ps2:-m后面输入的是本次提交的说明
+
+2 git init
+3 git add 01git.txt
+4 git commit -m "submit steps_git_learn"
+5 git status
+6 git diff 01git.txt
+
+3 git add 01git.txt
+4 git commit -m "update steps_git_learn"
+5 git status
